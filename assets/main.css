@@ -1,0 +1,19 @@
+.page-enter-active,
+.page-leave-active {
+  transition: opacity 0.5s;
+}
+.page-enter,
+.page-leave-to {
+  opacity: 0;
+}
+p {
+  font-family: "Work Sans";
+  font-size: 14px;
+  color: rgb(0, 53, 67);
+}
+
+.subheading1 {
+  font-family: "Work Sans";
+  font-size: 1em;
+  color: rgb(0, 53, 67);
+}
