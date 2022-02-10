@@ -9,7 +9,7 @@
         </div>
       </div>
     </div>
-    <br>
+    <br />
     <div class="container">
       <div class="justify-content-center">
         <div v-if="$nuxt.isOnline">You are online</div>
@@ -24,7 +24,6 @@
     </div>
   </div>
 </template>
-
 
 <script>
 export default {

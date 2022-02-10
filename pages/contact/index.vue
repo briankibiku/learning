@@ -27,6 +27,9 @@
         ></textarea>
       </div>
       <button type="submit" class="btn btn-primary">Submit</button>
+      <br>
+      <div>
+          Wanna chat? Shoot me an email @ kibikukim@gmail.com or a call on +2547 24 609 783</div>
     </form>
     <br />
     <Networkdata />

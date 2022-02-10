@@ -3,12 +3,12 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "nuxt --port 4000",
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
     "predeploy": "nuxt generate",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist",
+    "heroku-postbuild": "npm run build"
   },
   "dependencies": {
     "@nuxtjs/auth-next": "5.0.0-1624817847.21691f1",

@@ -5,21 +5,21 @@
     <div class="container">
       <div class="row">
         <div class="col">
-          <Card />
+          <WeatherCard />
         </div>
         <div class="col">
-          <Card />
+          <DonateCard />
         </div>
         <div class="col">
-          <Card />
+          <DropCard />
         </div>
       </div>
     </div>
-    <br>
-    <div class="container">
-      <div class="justify-content-center">
-        <div v-if="$nuxt.isOnline">You are online</div>
-        <Nuxt />
+    <br />
+    <!-- 
+      <div class="container">
+        <div class="justify-content-center">
+          <div v-if="$nuxt.isOnline">You are online</div>
         <br />
 
         <div>{{ content }}</div>
@@ -28,12 +28,16 @@
         <button @click="showAlert" class="btn btn-primary">Show Alert</button>
       </div>
     </div>
-    <Footer/>
+        -->
+    <Footer />
   </div>
 </template>
 
-
 <script>
+import DropCard from "../../components/DropCard.vue";
+import DonateCard from "../../components/DonateCard.vue";
+import WeatherCard from "../../components/WeatherCard.vue";
+import Navbar from "../../components/Navbar.vue";
 export default {
   asyncData() {
     return {
@@ -51,18 +55,6 @@ export default {
       alert("You clicked me");
     },
   },
-  //    mounted() {
-  //     this.$nextTick(() => {
-  //       this.$nuxt.$loading.start()
-  //       setTimeout(() => this.$nuxt.$loading.finish(), 5000)
-  //     })
-  //   }
-  //   middleware({ store, redirect }) {
-  //     // retrieving keys via object destructuring
-  //     const isAuthenticated = store.state.authenticated;
-  //     if (!isAuthenticated) {
-  //       return redirect("/login");
-  //     }
-  //   },
+  components: { DropCard, DonateCard, WeatherCard, Navbar },
 };
 </script>

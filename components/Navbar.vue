@@ -15,11 +15,11 @@
       <b-collapse id="nav-collapse" is-nav>
         <!-- Right aligned nav items -->
         <b-navbar-nav class="ml-auto">
-          <b-navbar-nav>
+          <b-navbar-nav class="menu">
+            <b-nav-item href="/">Home</b-nav-item>
             <b-nav-item href="/about">About</b-nav-item>
             <b-nav-item href="/contact">Contact</b-nav-item>
             <b-nav-item href="/hire">Hire</b-nav-item>
-            <b-nav-item href="/mountains">Mountains</b-nav-item>
             <b-nav-item href="/projects">Projects</b-nav-item>
           </b-navbar-nav>
         </b-navbar-nav>

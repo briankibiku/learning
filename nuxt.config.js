@@ -1,7 +1,6 @@
 export default {
   mode: "static",
   router: {
-    base: "/sellme/",
     linkPrefetchedClass: "nuxt-link-prefetched",
   },
   // Global page headers: https://go.nuxtjs.dev/config-head
