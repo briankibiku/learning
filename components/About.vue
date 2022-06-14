@@ -12,18 +12,48 @@
       <br />
       <div class="col-sm">
         <p class="testing1">
-          I'm Kibiku, thanks for droping by to check me out. Everything about the Software Engineering "Food Chain" excites me. My
-          love for designing and breathing life to designs (through code) to
-          testing the software is next to nothing. It is amazing how you can
-          change lives using software.
+          I'm Kibiku, thanks for dropping by to check my portfolio out!
         </p>
-        <br />
+        <p>
+          I am a programmer passionate about building applications that make the
+          world better. In the past
+          <span style="font-weight: bold"> 3 years</span>
+          , I have had the opportunity to work in the finance, EduTech and
+          TeleHealth environment building applications that manage medical,
+          financial, and content data. I have also worked in the corporate world
+          building web and mobile applications that have improved processes
+          efficiency, reporting, and maintainability.
+        </p>
+        <p>My go to's</p>
+        <p class="favs">
+          Frontend ->
+          <span>ReactJs,</span>
+          <span>VueJs,</span> <span>Laravel,</span> <span>MongoDB,</span>
+          <span>Express,</span>
+        </p>
+        <p class="favs">
+          Mobile Development ->
+          <span>Flutter,</span>
+          <span>React Native,</span>
+        </p>
+        <p class="favs">
+          Databases ->
+          <span>MYSQL,</span>
+          <span>MongoDB,</span> <span>MariaDB,</span><span>Firebase,</span>
+        </p>
+        <p class="favs">
+          Serverside ->
+          <span>NodeJs,</span>
+          <span>Express,</span>
+        </p>
         <p style="font-family: Work Sans">
-          I am an Experienced Software Engineer with a history of working in the
-          hospital & health care insurance industry. Skilled in Web and Mobile
-          application development, debugging, testing and integrations. Strong
-          engineering professional with a Bsc. Computer Science from University
-          of Nairobi.
+          My work experience and educational background have improved my skills
+          in Software Development, Data Analysis, Leadership, and Communication
+          which I still seek to improve with time.
+        </p>
+        <p>
+          Besides work, I love traveling, reading books, watching movies, and
+          hiking.
         </p>
         <p style="font-family: Work Sans">
           Wanna chat? Shoot me an email @ kibikukim@gmail.com
@@ -47,3 +77,10 @@ export default {
   },
 };
 </script>
+<style>
+.favs {
+  color: #1596f8;
+  font-weight: 600;
+  font-size: 14px;
+}
+</style>

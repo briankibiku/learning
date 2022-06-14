@@ -20,7 +20,7 @@
         "
       >
         Do not hesitate to shoot me an email @ <u>kibikukim@gmail.com</u> Or
-        just call me up on <b> +2547 24 609 783 </b>
+        call me up on <b> +2547 24 609 783 </b>
       </p>
     </form>
     <Footer />

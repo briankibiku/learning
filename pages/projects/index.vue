@@ -4,40 +4,35 @@
     <br />
     <div class="container">
       <div class="row">
-        <div class="col">
-          <WeatherCard />
+        <div class="col-sm-3" style="margin-inline: 10px">
+          <AutoCheck />
         </div>
-        <div class="col">
+        <div class="col-sm-3" style="margin-inline: 10px">
+          <FikishaCard />
+        </div>
+        <div class="col-sm-3" style="margin-inline: 10px">
           <DonateCard />
         </div>
-        <div class="col">
+        <div class="col-sm-3" style="margin-inline: 10px">
           <DropCard />
+        </div>
+        <div class="col-sm-3" style="margin-inline: 10px">
+          <WeatherCard />
         </div>
       </div>
     </div>
     <br />
-    <!-- 
-      <div class="container">
-        <div class="justify-content-center">
-          <div v-if="$nuxt.isOnline">You are online</div>
-        <br />
-
-        <div>{{ content }}</div>
-        <br />
-        <button @click="refreshPage" class="btn btn-primary">Refresh</button>
-        <button @click="showAlert" class="btn btn-primary">Show Alert</button>
-      </div>
-    </div>
-        -->
     <Footer />
   </div>
 </template>
 
 <script>
 import DropCard from "../../components/DropCard.vue";
+import FikishaCard from "../../components/FikishaCard.vue";
 import DonateCard from "../../components/DonateCard.vue";
 import WeatherCard from "../../components/WeatherCard.vue";
 import Navbar from "../../components/Navbar.vue";
+import AutoCheck from "../../components/AutoCheck.vue";
 export default {
   asyncData() {
     return {
@@ -55,6 +50,6 @@ export default {
       alert("You clicked me");
     },
   },
-  components: { DropCard, DonateCard, WeatherCard, Navbar },
+  components: { DropCard, DonateCard, WeatherCard, Navbar, FikishaCard, AutoCheck },
 };
 </script>
