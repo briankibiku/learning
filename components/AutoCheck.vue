@@ -1,12 +1,7 @@
 <template>
   <div class="container">
     <div class="card" style="width: 18rem">
-      <img
-        src="./../assets/ac.png"
-        class="card-body"
-        width="100"
-        height="40"
-      />
+      <img src="./../assets/ac.png" class="card-body" width="160" height="100" />
       <div class="card-body">
         <h5 class="card-title">AutoCheck Africa App</h5>
         <p class="card-text">

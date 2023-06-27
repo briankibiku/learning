@@ -2,7 +2,7 @@
   <div>
     <Navbar />
     <br />
-    <p>{{ userNameFunc() }}</p>
+    <!-- <p>{{ userNameFunc() }}</p> -->
     <About />
 
     <br />
@@ -10,11 +10,6 @@
       <div class="row align-items-start" style="width: 1400"></div>
     </div>
     <Footer />
-    <footer class="page-footer font-small blue pt-4">
-      <div class="footer-copyright text-center py-3" style="color: grey">
-        © 2020 Copyright: b2k
-      </div>
-    </footer>
   </div>
 </template>
 

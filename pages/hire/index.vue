@@ -12,14 +12,14 @@
       </h4>
       <br />
       <p
+      class="text-center"
         style="
           font-family: Work Sans;
           font-size: 16px;
-          text-align: center;
           color: black;
         "
       >
-        Do not hesitate to shoot me an email @ <u>kibikukim@gmail.com</u> Or
+        Do not hesitate to <a href="mailto:kibikukim@gmail.com">shoot me an email</a> @ <u>kibikukim@gmail.com</u>  Or
         call me up on <b> +2547 24 609 783 </b>
       </p>
     </form>

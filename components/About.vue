@@ -1,55 +1,64 @@
 <template>
-  <div class="container d-flex justify-content-center" style="max-width: 900px">
-    <div class="row align-items-start mx-auto">
+  <div class="container" style="max-width: 1020px">
+    <div class="row">
       <div class="col-sm">
-        <img
+        <!-- <img
           src="https://drive.google.com/uc?export=view&id=1F-a5Svs-YffBbu-mTDtP1uMOGQgFJAC4"
           height="1000"
           width="1000"
           class="img-fluid"
+        /> -->
+
+        <img
+          src="../assets/b2k.jpg"
+          class="img-fluid"
+          style="border-radius: 20px;"
         />
       </div>
       <br />
       <div class="col-sm">
+        <br>
+        <h4 class="animate__animated animate__bounce animate__delay-0s testing1">
+          Hello there and welcome!
+        </h4>
         <p class="testing1">
           I'm Kibiku, thanks for dropping by to check my portfolio out!
         </p>
         <p>
-          I am a programmer passionate about building applications that make the
-          world better. In the past
-          <span style="font-weight: bold"> 3 years</span>
-          , I have had the opportunity to work in the finance, EduTech and
-          TeleHealth environment building applications that manage medical,
-          financial, and content data. I have also worked in the corporate world
-          building web and mobile applications that have improved processes
-          efficiency, reporting, and maintainability.
+          I am a <b>Full Stack Software Engineer and DevOps Engineer</b>, bridging the gap between
+           code and infrastructure for seamless application development and deployment.
         </p>
-        <p>My go to's</p>
+        <h6>My Programming Stacks</h6>
         <p class="favs">
-          Frontend ->
-          <span>ReactJs,</span>
-          <span>VueJs,</span> <span>Laravel,</span> <span>MongoDB,</span>
-          <span>Express,</span>
+          Frontend <br><br>
+          <span v-for="lang in fe"> {{ lang.name }} </span>
+          <!-- <span>VueJs,</span> <span>Laravel,</span> <span>MongoDB,</span>
+          <span>Express,</span> -->
         </p>
         <p class="favs">
-          Mobile Development ->
-          <span>Flutter,</span>
-          <span>React Native,</span>
+          Mobile Development <br><br>
+          <span v-for="lang in md"><span> {{ lang.name }} </span></span>
         </p>
         <p class="favs">
-          Databases ->
-          <span>MYSQL,</span>
-          <span>MongoDB,</span> <span>MariaDB,</span><span>Firebase,</span>
+          Programming Languages <br><br>
+          <span v-for="lang in be"> {{ lang.name }} </span>
         </p>
         <p class="favs">
-          Serverside ->
-          <span>NodeJs,</span>
-          <span>Express,</span>
+          Backend <br><br>
+          <span v-for="lang in bestack"> {{ lang.name }} </span>
+        </p>
+        <p class="favs">
+          Databases <br><br>
+          <span v-for="lang in db"> {{ lang.name }} </span>
+        </p>
+        <p class="favs">
+          Cloud Technologies <br><br>
+          <span v-for="lang in cloud"> {{ lang.name }} </span>
         </p>
         <p style="font-family: Work Sans">
-          My work experience and educational background have improved my skills
-          in Software Development, Data Analysis, Leadership, and Communication
-          which I still seek to improve with time.
+          My four-year experience across the fintech, telehealth, and edutech fields has improved my skills
+          in software development, testing, deployment, and maintenance, Data Analysis, Leadership, and Communication
+          which I am continuously improving.
         </p>
         <p>
           Besides work, I love traveling, reading books, watching movies, and
@@ -75,6 +84,16 @@ export default {
       },
     ],
   },
+  data() {
+    return {
+      fe: [{'name': 'Vue.js'}, {'name': 'React'}, {'name': 'Angular'}, {'name': 'Django'}],
+      md: [{'name': 'Flutter'}, {'name': 'React Native'}],
+      be: [{'name': 'Python'}, {'name': 'GraphQL'}, {'name': 'Dart'}],
+      db: [{'name': 'PostgreSQL'}, {'name': 'MYSQL'}, {'name': 'MongoDB'}, {'name': 'Firebase'}],
+      cloud: [{'name': 'AWS'}, {'name': 'Docker'}, {'name': 'GCP'},  {'name': 'Firebase'}],
+      bestack:[{'name': 'Django Rest Framework'}, {'name': 'Flask'}]
+    }
+  }
 };
 </script>
 <style>
@@ -82,5 +101,15 @@ export default {
   color: #1596f8;
   font-weight: 600;
   font-size: 14px;
+}
+span {
+  background-color: #F8F9FA;
+  height: 40px;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 40px;
+  margin-inline: 2px;
+  margin-block: 5px;
 }
 </style>

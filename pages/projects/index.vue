@@ -5,10 +5,7 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-3" style="margin-inline: 10px">
-          <AutoCheck />
-        </div>
-        <div class="col-sm-3" style="margin-inline: 10px">
-          <FikishaCard />
+          <WeatherCard />
         </div>
         <div class="col-sm-3" style="margin-inline: 10px">
           <DonateCard />
@@ -17,7 +14,10 @@
           <DropCard />
         </div>
         <div class="col-sm-3" style="margin-inline: 10px">
-          <WeatherCard />
+          <AutoCheck />
+        </div>
+        <div class="col-sm-3" style="margin-inline: 10px">
+          <FikishaCard />
         </div>
       </div>
     </div>
