@@ -10,7 +10,7 @@
         /> -->
 
         <img
-          src="../assets/b2k.jpg"
+          src="../assets/b2k.gif"
           class="img-fluid"
           style="border-radius: 20px;"
         />
