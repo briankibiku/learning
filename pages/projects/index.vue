@@ -5,10 +5,10 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-3" style="margin-inline: 10px">
-          <WeatherCard />
+          <DonateCard />
         </div>
         <div class="col-sm-3" style="margin-inline: 10px">
-          <DonateCard />
+          <WeatherCard />
         </div>
         <div class="col-sm-3" style="margin-inline: 10px">
           <DropCard />
